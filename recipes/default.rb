@@ -1,4 +1,4 @@
-solr_version = "4.1.0"
+solr_version = node[:solr][:version]
 
 include_recipe "jetty::default"
 

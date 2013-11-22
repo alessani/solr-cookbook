@@ -33,7 +33,7 @@ end
 #  </solr>')
 #end
 
-#node[:solr].each do |dir|
+#node[:apps][:running].each do |dir|
 #  ["data", "data/index", "data/spellchecker"].each do |inside|
 #	directory "/mnt/apps/#{dir}/current/solr/#{inside}" do
 #   	  owner "jetty"
